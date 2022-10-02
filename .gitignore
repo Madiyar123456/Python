@@ -1,17 +1,20 @@
 #Ермаған Мадияр СИБ -21
 
-1- esep
+#1- esep
 q = [26, True, 7.6, [1, 2], "abs"]
 for i in range(len(q)):
     print("Тип переменной в списке:", type(q[i]))
     
     
-2- esep
+    
+#2- esep
 l = input("Введите элементы списка: ").split()
 l[:-1:2], l[1::2] = l[1::2], l[:-1:2]
 print(l)
 
-3 - esep
+
+
+#3 - esep
 num = int(input('Введите месяц в виде целого числа от 1 до 12: '))
 if num==12 or num==1 or num ==2:
     print('Зима')
@@ -24,14 +27,16 @@ elif num == 9 or num == 10 or num == 11:
 else:
     print('Вы ввели неверное число')
 
-4-esep
+
+
+#4-esep
 a = input().split()
 
 for ind, i in enumerate(a,1):
     print(ind, i[0:10])
 
 
-5-esep
+#5-esep
 my_list = [7, 5, 3, 3, 2]
 a = int(input("Новый элемент рейтинга: "))
 if a > 0:
@@ -42,8 +47,8 @@ else:
     print("Ошибка")
 
 
-6-esep
 
+#6-esep
 products = []
 names = []
 prices = []
