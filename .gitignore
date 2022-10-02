@@ -1,3 +1,5 @@
+#Ермаған Мадияр СИБ -21
+
 1- esep
 q = [26, True, 7.6, [1, 2], "abs"]
 for i in range(len(q)):
